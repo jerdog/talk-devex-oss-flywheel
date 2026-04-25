@@ -89,9 +89,10 @@ transition: slide-down
 
   ## Jeremy Meiss
 
-  <p style="font-weight: bold;">Director, DevEx & DevRel</p>
-  <p class="text-sm italic">OneStream Software</p>
+  <p style="font-weight: bold;">Tech Solution Architect, Native AI</p>
+  <p class="text-sm italic">WWT</p>
   <p style="font-weight: bold;">DevOpsDays KC Organizer</p>
+  <p style="font-weight: bold;">CommunityDays KC Organizer</p>
 
 </span>
 
@@ -100,7 +101,7 @@ transition: slide-down
 ![alt text](/images/profile-pic.jpg){style="position: relative; margin: auto; width: 70%; border-radius: 15px 50px; "}
 
 <!--
-My name is Jeremy Meiss, and I am the Director of Developer Experience and Developer Relations at OneStream Software. I also help organize DevOpsDays Kansas City.
+My name is Jeremy Meiss, and I am a Tech Solution Architect at WWT. I also help organize DevOpsDays Kansas City.
 -->
 
 ---
@@ -260,7 +261,7 @@ A positive DevEx is characterized by frictionless workflows that empower develop
 
 <!--
 There are 3 core dimensions that you can measure (and improve) in Developer Experience.
-[click]**Feedback Loops:** This dimension concerns the speed and quality of the learning cycles that define a developer's workflow. It answers the question: "How quickly do I learn if my change is correct?" Fast, high-quality feedback loops are characterized by rapid build and test times, swift code reviews, and smooth, predictable deployments. Slow or noisy feedback loops, in contrast, kill momentum and create frustration. [click]**Cognitive Load:** This refers to the total amount of mental effort required to perform a task. In software development, cognitive load is increased by factors such as complex architectures, poorly documented code, inconsistent tooling, and ambiguous processes. Reducing unnecessary cognitive load allows developers to dedicate their finite mental energy to solving the core problem at hand, rather than fighting their environment. [click]**Flow State:** Often described as "being in the zone," flow state is a mental state of deep, energized focus and full immersion in a task. It is in this state that developers are at their most productive, creative, and satisfied. Achieving flow state requires long, uninterrupted blocks of time, clear goals, and an environment free from distractions and context-switching.
+[click]**Feedback Loops:** This dimension concerns the speed and quality of the learning cycles that define a developer's workflow. It answers the question: "How quickly do I learn if my change is correct?" ~Fast, high-quality feedback loops are characterized by rapid build and test times, swift code reviews, and smooth, predictable deployments. Slow or noisy feedback loops, in contrast, kill momentum and create frustration. ~ [click]**Cognitive Load:** This refers to the total amount of mental effort required to perform a task. In software development, cognitive load is increased by factors such as complex architectures, poorly documented code, inconsistent tooling, and ambiguous processes. Reducing unnecessary cognitive load allows developers to dedicate their finite mental energy to solving the core problem at hand, rather than fighting their environment. [click]**Flow State:** Often described as "being in the zone," flow state is a mental state of deep, energized focus and full immersion in a task - and where you're most productive, creative, and satisfied. It does require long, uninterrupted blocks of time, clear goals, and an environment free from distractions and context-switching.
 -->
 
 ---
@@ -308,9 +309,8 @@ So if we apply the idea of the flywheel to DevEx, we come up with a conceptual m
 This is the first push on the flywheel. Lower the barrier to entry.
 
 - Your README.md is the front door. Does it have a clear "What is this?" and a "How do I run this?" section? Your CONTRIBUTING.md is the welcome mat. It must be clear, concise, and friendly.
-- Do you have Issue and PR templates to guide new contributors?
-- Do you have a set of "good first issues" that are well-defined and easy to tackle?
-- Publish ways to get involved that don't require code: Docs, blogs, testing, answer questions, etc.
+- Do you have Issue and PR templates to guide new contributors? Good First issues to tackle?
+- Ways to get involved that aren't strictly code?
 -->
 
 ---
@@ -325,7 +325,7 @@ This is the first push on the flywheel. Lower the barrier to entry.
 
 <!--
 - There's a reason why almost every developer-facing tool has a "Hello World" example. For years, companies like Twilio, Stripe, and others have focused on "Hello World" as a key metric for developer onboarding. We've called this "Time to Joy" among other things. The faster a new contributor can get a simple example running, the more likely they are to stick around. This should be as quick as possible.
-- Friction in setup is a joy-killer. Automate your development environment. Things like devcontainers.json helps contributors get a fully configured, one-click development environment in VS Code or GitHub Codespaces.
+- Friction in setup is a joy-killer. Automate your development environment with a devcontainers json file as an easy path to entry.
 - Use tooling like linters and formatters to remove style debates from code review, and to keep your codebase consistent.
 -->
 
@@ -419,6 +419,7 @@ Now you have an engaged contributor who helps improve the project and mentor oth
 </v-click>
 
 <!--
+**SPEED UP HERE***
 You can't improve what you don't measure. CHAOSS Community has a wealth of good metrics you can use to track your project, as well as GitHub's Insights tab.
 
 [click]- How many contributors are making their first contribution to a given project and who are they? Identify first-time contributions across key community interactions, including code commits, issue creation, pull requests, and code reviews. Track new contributors by time period to analyze trends and changes in project engagement.
