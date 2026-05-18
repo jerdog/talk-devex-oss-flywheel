@@ -10,7 +10,7 @@ info: |
   It's no secret that building and sustaining thriving open source communities requires moving beyond sporadic contributions and fostering an ecosystem of engaged members. That process is not simple, and requires a lot of time and effort, which is not often something a maintainer has, which more often than not leads to maintainer burnout or project stagnation.
   In this talk, Jeremy will connect the principal of a "flywheel" that we see in everyday life with the principles of Developer Experience, and discuss what a "DevEx Flywheel" should look like. He will explore how things like feedback loops, "time to joy", onboarding, and documentation all contribute to an experience that can enhance contributions, which in turn improves project health, value, and more.
   Stop hoping for community growth; start engineering it through Developer Experience.
-conference: "LinuxFest NW 2026"
+conference: "Open Source Summit 2026"
 socialimg: /images/bluesky-jerdog-white.png
 # https://sli.dev/features/drawing
 drawings:
