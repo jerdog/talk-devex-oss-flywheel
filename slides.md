@@ -469,10 +469,14 @@ Small, consistent improvements create powerful, sustainable momentum.
 layout: two-cols
 ---
 
-<div style="padding-top:200px; align-items: center; justify-content: center; margin: 0 auto; display: flex;">
+<div style="padding-top:150px; align-items: center; justify-content: center; margin: 0 auto; display: flex;">
 
   <h2>Thank you!</h2>
 
+</div>
+
+<div style="padding-top:50px; align-items: center; justify-content: center; margin: 0 auto; display: flex;">
+  <h4>🔬 Slides available at: speaking.jmeiss.me</h4>
 </div>
 
 ::right::
@@ -484,7 +488,7 @@ layout: two-cols
 <p><img src="/images/www.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">jmeiss.me</p>
 
 <!--
-
+And a final thought - black lives matter, trans rights are human rights, love is love, abortion is healthcare, and fuck ICE.
 -->
 
 ---
