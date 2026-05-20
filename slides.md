@@ -44,6 +44,8 @@ backgroundSize: contain
 ## Engineering OS Communities with DevEx
 
 <!--
+## RESET THE TIMER
+
 How many maintainers do we have? What about contributors?
 -->
 
@@ -61,9 +63,7 @@ class: my-cool-content-on-the-right
 <span style="position: fixed; bottom: 0; left: 5%; z-index: 1000; color: blue;">source: [xkcd](https://xkcd.com/2347/)</span>
 
 <!--
-We all want thriving open source communities with many engaged contributors. How many have said a variation of this to themselves? This is fine for a time, but what happens when you start getting a lot of new contributions, issues, PRs, and questions? How do you get more help? How do you get more contributors? How do you grow your community? And how do you prevent the inevitable burnout that comes from trying to do it all yourself? Or falls victim to the software supply chain attacks that have become all too common? The latest NPM anyone?
-
-There's always hope, right?
+We all want thriving open source communities with many engaged contributors. How many have said a variation of this to themselves? This is fine for a time, but what happens when you start getting a lot of new contributions, issues, PRs, and questions? How do you get more help? How do you get more contributors? How do you grow your community? And how do you prevent the inevitable burnout that comes from trying to do it all yourself? Or falls victim to the software supply chain attacks that have become all too common? The latest NPM anyone? There's always hope, right?
 -->
 
 ---
@@ -134,8 +134,7 @@ $\frac{1}{2} I  w^{2}$
 `w` = angular velocity, `I` = moment of inertia
 
 <!--
-The kinetic energy (or more specifically rotational energy) stored by the flywheel's rotor can be calculated by this formula. "w" is the angular velocity, and "I" is the moment of inertia of the flywheel about its axis of symmetry. The moment of inertia is a measure of resistance to torque applied on a spinning object (i.e. the higher the moment of inertia, the slower it will accelerate when a given torque is applied).
-
+The kinetic energy (or more specifically rotational energy) stored by the flywheel's rotor can be calculated by this formula. "w" is the angular velocity, "I" is the moment of inertia of the flywheel about its axis of symmetry. The moment of inertia is a measure of resistance to torque applied on a spinning object (i.e. the higher the moment of inertia, the slower it will accelerate when a given torque is applied).
 I have nothing more on that, I just wanted to be able to tell my mom that at one point in life I gave a talk with math and physics in it.
 -->
 
@@ -281,7 +280,7 @@ What makes DevEx different in Open Source projects? The biggest difference is th
 ![alt text](/images/slides/good-to-great.webp){style="width: 50%; margin: auto;"}
 
 <!--
-Jim Collins, in his book "Good to Great," popularized the concept of the "flywheel effect" in business. His research identified that no matter how dramatic the end result, good-to-great transformations never happen in one fell swoop. In building a great company or social sector enterprise, there is no single defining action, no grand program, no one killer innovation, no solitary lucky break, no miracle moment. Rather, the process he described was relentlessly pushing a giant, heavy flywheel, turn upon turn, building momentum until a point of breakthrough, and beyond. The key to the flywheel effect is that it requires consistent, focused effort over time to build momentum. Each small push adds to the overall momentum, and as the flywheel spins faster, it becomes easier to keep it going.
+How many have read this book by Jim Collins? He popularized the concept of the "flywheel effect" in business. His research identified that no matter how dramatic the end result, good-to-great transformations never happen in one fell swoop. In building a great company or social sector enterprise, there is no single defining action, no grand program, no one killer innovation, no solitary lucky break, no miracle moment. Rather, the process was relentlessly pushing a giant, heavy flywheel, turn upon turn, building momentum until a point of breakthrough, and beyond. The key is that it requires consistent, focused effort over time to build momentum. Each small push adds to the overall momentum, and as the flywheel spins faster, it becomes easier to keep it going.
 -->
 
 ---
@@ -324,7 +323,7 @@ This is the first push on the flywheel. Lower the barrier to entry.
 - Linters & Formatters (Prettier, ESLint, [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/))
 
 <!--
-- There's a reason why almost every developer-facing tool has a "Hello World" example. For years, companies like Twilio, Stripe, and others have focused on "Hello World" as a key metric for developer onboarding. We've called this "Time to Joy" among other things. The faster a new contributor can get a simple example running, the more likely they are to stick around. This should be as quick as possible.
+- There's a reason why almost every dev-facing tool has a "Hello World" example. For years, companies like Twilio, Stripe, and others focused on "Hello World" as a key metric for developer onboarding, what I call "Time to Joy". The faster a new contributor can get a simple example running, the more likely they are to stick around. This should be as quick as possible.
 - Friction in setup is a joy-killer. Automate your development environment with a devcontainers json file as an easy path to entry.
 - Use tooling like linters and formatters to remove style debates from code review, and to keep your codebase consistent.
 -->
@@ -340,7 +339,7 @@ This is the first push on the flywheel. Lower the barrier to entry.
 - "Office Hours"
 
 <!--
-- A contribution without feedback feels like shouting into the void. Fast, constructive feedback is critical momentum. Automate the first response, like a GitHub Action that thanks a new contributor for their first issue or PR.
+- A contribution without feedback feels like shouting into the void. Fast, constructive feedback is critical momentum. Use things like a GitHub Action to automate the first response and thank a new contributor for their first issue or PR.
 - Make code reviews about collaboration, not criticism. Provide clear expectations and guidelines for reviewers and contributors. PR templates can help set the tone from the start.
 - While it might be harder with a small project, "office hours" or regular video calls can help build relationships and provide real-time feedback, and can help your project grow.
 -->
@@ -356,7 +355,6 @@ This is the first push on the flywheel. Lower the barrier to entry.
 
 <!--
 This is the push that keeps the flywheel spinning. Contributors work on your project for free. The currency you pay them in is recognition and value.
-
 - Celebrate every contribution, not just code. Documentation, issue triage, and community help are all vital. You can automatically add contributors to your README with tools like the all-contributors bot.
 - Publicly thank contributors. Include contributors in release notes, blog posts, and social media shoutouts.
 -->
